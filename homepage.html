@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="homepage.css">
+    <title>Zachary Auerbach</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html" class="">
+                    <h3>Auer<span>bach</span></h3>
+                </a></li>
+            <li class="item"><a href="homepage.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Projects</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="javascript-page.html">Javascript</a></li>
+                    <li class="subitem"><a href="react-page.html">React/WebGL/THREE</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="#footer">Contact</a>
+            </li>
+            <!-- Refactor styling to add a hr to the submenu item -->
+            <!-- <li class="item button"><a href="#">Log In</a></li>
+                <li class="item button secondary"><a href="#">Sign Up</a></li> -->
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="title">Zach</div>
+        <div class="subtitle"> MERN Fullstack Software Engineer</div>
+    </div>
+
+    <br>
+
+    <div class="grid__wrapper">
+
+        <div class="grid__item1">
+            <a href="#" class="grid__card">
+                <div class="thumbnail__img" style="background-image: url(/dist/assets/img/profile.JPG);">
+                </div>
+                <article>
+                    <h1>About me</h1>
+                    <span>Zachary Auerbach</span>
+                    <p>Thank you for viewing my portfolio! My name is Zachary Neil Auerbach, and I am a MERN Fullstack
+                        Software Engineer. Please exucse the cute cat photo. I love all kinds of animals, as well as I
+                        am very passionate about programming in general. I am adamant about changing the world, with
+                        dynamic solutions.
+                        I started my programming journey in December 2019. My dreams and aspirations have changed since
+                        learning MERN. I want to create or be apart of a regulations company similar to the FAA but for
+                        the Ethical use of Algorithms and AI on humans.
+                    </p>
+                </article>
+            </a>
+        </div>
+
+        <div class="grid__item2">
+            <a href="#" class="grid__card">
+                <div class="thumbnail__img"
+                    style="background-image: url(https://ichef.bbci.co.uk/images/ic/640x360/p096hbwt.jpg);">
+                </div>
+                <article>
+                    <h1>Aurelius DTS</h1>
+                    <span>Zachary Auerbach</span>
+                    <p> Marcus Aurelius has become one of my latest Idols. It's hard in today's society to look up to
+                        great leaders. When the array to choose from is so slim and dim.
+                    </p>
+                </article>
+            </a>
+        </div>
+
+        <div class="grid__item3">
+            <a href="#" class="grid__card">
+                <div class="thumbnail__img" style="background-image: url(/dist/assets/img/20200626_224929.jpg);">
+                </div>
+                <article>
+                    <h1>Personal Hobbies</h1>
+                    <span>Author</span>
+                    <p>When I am not programming or teaching it through tutoring. I enjoy breaking away from my computer
+                        from time to time.
+                        things like ["hiking", "exploring new areas && places", "Working on a new mask technology",
+                        "Video Games"];
+                    </p>
+                </article>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- Swiper -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h3 style="text-align: center; color:black;">Services</h3>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktY2TXfPBBVcCkXS5UaGLHF610eksGTbwtw&usqp=CAU">
+                <br>
+                <hr>
+                <p style="color:black;; font-weight: bolder;font-size: 13px;text-align: center;"> HTML5/CSS3/Javascript
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <h3 style="text-align: center;color:black;">Services</h3>
+                <img
+                    src="data:image/png;base64,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" />
+                <br>
+                <hr>
+                <p style="color:black;; font-weight: bolder;font-size: 13px;text-align: center;">
+                    THREE.JS/WebGL/GLSL
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <h3 style="text-align: center;color:black;">Services</h3>
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATMAAACkCAMAAADMkjkjAAABfVBMVEUdISy/Z15BRjmKtjseSnxARzgeIiwzkTb///88ozcaHitErDYAACrDaV8iJy42lzaNuzwZHCvt9OIcRnmEsy21YVljzfOAsSJkPUAYFCE4ZHkfJC1hx+0KGSbN4LPdsawXPnOjxm3IamCBqzoAGiicwmDNjogZEStBQji7WlAaFitKYTE5QDUcJDOSUU4sLzhXstnz+OwZDSsnYDEvNjETOW8dP2ZniDZiyvAXGCsqbDKhWVRWcDN6oTkzOjJKmcEvZpQoWolAhrCVvVHb6cd2rAAbGSAdNld2RUURAAAsdjNDf5c4Si8UDxOGTEpvkzhGkbnny8jVoJsuhjQeNC0lVjAjSy8dLEI0cJxefDXH3KdONDgIKmW10Yq4UkhSqM/IgHk5LDIhQS5NZTMZACtRNTkufjQqRFM6NzUADyE6SjBAeThBdDk/WzevzoC71JTt19QAG1xUoUmDtXVZnVBOg02yx5xUVlG+yKuOlIOnrpkcKiwvUGE1XnBHiqUdPpDmAAATxklEQVR4nO2di18ax9rHl9uqI6ysIF4ARVBRoriKF0CRi8YLMYhiFGMMotG0puo5fa8trX/7eZ7ZXVgQVvOettDPO79GA+sG8etvnsvM7JbjmJiYmJiYmL5fgiDwhLT7XfytJMyDhHa/i7+VABl+CBxz2qs1LxA3IJufd7f7nfxdRICVOD/Pi2g3plcJmPHwQQgw49v9Zv4mUnwmuBmy7xCYjMfUyZC9XsiLZYDvE2ZNQMYqje8TL7CBycTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE9G/pb7MB5Xv2FnllvXKPPZ62vb39um9BiBgKUsXEDt7uRESRuHmQW3z5bRKvlyvfDO3uDg3dlJHbyy8/Nzd3urNzOgfgXrIQCQVDlbv76/Xr6/sNEbh1JjaRCEuzin5YAmx6J3t/5IfCawMDBtDAwMBa7sb9o1fvH2zP7ayYV8wox8rKzinarfVbsVrvVhOJgKLE6rXbGvw//VB/qkQ3ALOAjNP4yWic3RBaDjkyUQ4PGGx+myq/zTAQLk+0NMP2nLlBKzt8C2q8aBXWAyaTXSNT4GDfGvoDfsw/UKKwMWukrKYt34zTRosRsQG1ZicTLxADUAatbDK15i9/utKIjFJrfnIwth4IAKY6wfODu6Cu9f9aEbKEkCgy47fe+2kjIsOnS03CNfEOrfnrganYBoa8zwfoNreDA9LhMDsUWvCIPlmZe3YyL4buDkwNwFRq62LHWI1wS5QR/Jm23Pb2dt1NW2TTWZpYjRA0WRNkAM0/kOOeQZsDkzlSyVKyiNyQng+elTL4pNFqgOyNxmNOJ3zUqJlWlzokqokCjWOoaUuht7e3r8uiQIM/sw3QCBc2NCcmW60RGn+KlIqeqORxSSkfcFpOSS6Xx+Mq+QDgznbdy4vWM43HBjdHF/ovnM6a1RKz1j8fyMsilVmMXUZ02fS3XmTWB05TDlkssxXtT+Xl11oTo1YLl7XQ3DgufWlPybxsBlbJtM+X93gyZvgrmqHQtEWHuLheHZdOINaN6n+wV7HZE0uLfxEXHRFhw6hq+qdemVlPwTJdPbqhuejAy+3quEymtstrIGP0dzgy0aIPB2beIxVLAA4eg9skH00FmrOtVWRO5+bHhe6Fj5MPW93dW+NOlZr9oBL76+C0kLihhHtAdt+nMOvr+akGzbJRPRnCv9+vjwyG51C1vt2mCdNhTnrk2O8oSlFXnuaC6kHzafXlg3cBuxrHHoHY1iSieuwHapNqXLOvhtpd3hIa/hX91NujMOvru68xM1ZHp7f8kssQ2sB5teTYMSt40jRn+sySy1P0yazgoFxzqCeL3IGCzHTRrxJDfuC47lH5mckeeGNtcxvqnq2iUW0mM8sqRsPUMKtcfwzxX86YM/BxeakgMjRy9O+qEe1UKS3yMjOHI+lJSpAJ6NGkxyEXH2pIs17Tkem0j29hFBusxv5B0yhQ+yiPW3tCv0P506W12bRiM5mZajSaTzfkd+ktywNz5nLskOoI6R2Nzai04Atao/E7ypDMeFI+kKPkyXxKe6T0ss+xnC5JiuHMcpkmCtRmzk0kdvG2VmPI+QDG6iMOUHtgvb250z0rN0o0mnX19NTGJhhNwUmNhqOT8Luyy6YQFsgwdng5M3N5ePRZRXY4ZQPXgdHw/O1ThYmvCJkynUrlXVImk5FcpVQqbS56Sp+UIncHswZvvcZohsj6H8FaJnksOgdBWKZNAsrHQWo0azsjGtjMqBrth/ueOmaFO01EW0KjecsDNhnZ5Yw8HD8fHSrPZWhjR/LgXKNN1LZqM+AjlSRP1OWRPFQuCZ8nzXKRq0S0xVXKaLy/fxzRmDY3MbJNjj88jGMGcL7d6h6lzAJ37WwHyKx2aKrMuvq6urr6+iK1csOygb9Z742Nxq9/XNYG49gYeGzqUH2ihrghZDZHk6YjlQE+HikJdVkxjUqVPMkk0pMyRbNPHZxiJWFXmE2irzZHtzadOCSxRPsI0N6OKsxMZ+00Gj9bS5qWb1VmVH3fNEajgxOGJkI7OlITJHpsDFPB2OEM9ZthRs0CE3Kh4fCZM9ACJJPR9KcMZEwfRDIflGalT+aSlAFupRRa7RSyQPBNQMtscHKhe9K01b3Qv7XVv9A9uulUmZlMB+1kJqhZE9um2x4FmsLsVlPXGpcI550P0xGpsRkSBKNBYDuamVHcRpnlIEJhOHOkMHr5IPAnU9AL+NKZfL5oXs54MhDi/rmczntc2HeuzPGc9SxgqmPWvzD50L0w+RY0vtB9MVhlZg+E2pc5aThTmd0X6pl1aQIaNAMi7y2v0bR5aPg8U9XnKRyckC+nLg9rLKGBIhjOHGnJk/E5aIUmeVKQK6MulwQFWkmCkgOO+1KSp2iWma2amjEb3zQNvn37sf/BqWEmtJWZOjYtP9C02ZIZ+qwcBmY2SJNTNUHVQZPmJRQeNfvRphOY+cBQyzQPpF1Q/y+DrSATlNJgtGiefsGXlqSWzDY3sbQd/fh4MQnDVsNstn1T3cjM0sCsp8ZsX8tMBGa0Pb88HKsXopqZOfyHYcamYTZBfZaU5Ekzh88DJdpySU6aYDhJaQccvhK0A6185nzYWpD79I+bWp/dta9/qhub+wVdZkRhBsPwsr5VkquMsaNaOKv3Ge0AUlFXEuNYFCeBMB+48pTZsp7PJgcH7eOPj6OjW9gFqLVGe4uNOmaW2956Zs9ygBzPLqvZUZM+ARh+qEbz5wQazyBwufKOZSjDIH6hs5JRV1S2mSRBO7XsK0KYc7RiNv5xa3wQc4BztLt/UsOs0sZ4JqjxDJgZvzUw+1ZlBgMYmQk5OW/WMZvCMEbj/8zhmApNzps7DghXJU8pA25yZZS8mcmkHTh3lvHk/2kuJqFmcyg+W3+WN8dHu7dMbwcBGzzQMmvr1IamPpuO9ChSao1IzWW0PiPcLvpsRpMfcaRClQFZE2MZ7Zy09ZkD+3OoaKE+g6QJ49S3/OnTp2Woz5KfMKNCfZakDTtOcQfvG+ozGJtQY0AK+Dg6Cm2TJge0tT4Ta/ONxmpA61HD2Q81oLRJ957TmnZqrGY0bJ4oN5zdmFHLDdvA0ATPEbkPgKoWQn9UKqGnUsVUqlgsRUvQB0AnlS865D6Axz7gObPBi61uOQc8amvatvYB4pKxmjnpvIaG2be7Gk8cmpycBGyGz4cUGuL7PHU49RmRKa6TOwFlfptwSr/p8xURkiS5aLMJtLDfLElJx7I8s7FCJ4PkgDY43r/w8Nap5oDN8YuLx8eHSSf06tV+c7+tKyk4faZAg8zZV2NW6LqfrtpMmUAj/K68Rjd2ODXzGQTZEox1NFYbqkeHl3RoNs5rRCH+p1IZF9T/RSmaTKXS0CGUltV5DXx1XhmcJoj3o5tv304uLEwq0xqDg4AMLLdwocxrtBMZGq02AI3XNWZ9Pxmnq1NBss0AWtlGx6Dh6BCLtMOxo0tomWrIEOdUbf6MqPNn5jwkR7CbL+/Jf8JcgF0nFBnKnKMyf0aIMn82ivXYAyDSzJ+NQ6HW/9AR82ccrtOpbpq2ZBFZX1ehUNcEWGaV+xARLqdM017KTYAc2OpKDxi9kAHk87fVeVplbhsflDxS2qce1NiMq3XppgeghhOzTpXY5Baup2yaOmKeVtsK4L4DSAO9P8PA7LrX1GaqzZQZNDqHJsvwDBlSW6tuQeAb1wMcENNSy2ZlbjutzJ4pLy/G5PUA56AJKrPRC6c8VztI1wOgEVAKjfvFtm9LW7Jo0sBdoefn/6DBrOYydWYbRW4ML647GYY0C5zKulM0LWeDDOSAUlpdD9COTFRwKaGuOyGti60LnKKlawGTdnWu+2yx3etO4IUNi6ZIuyv8/PifBa3LLHXbD/hci30HVWRKAlAkL9bJ65vYFZRSGY9UXMb9BxDP6pfqIHUqaYBim8Q1unFcqVPXnGhtJrR/fZMjmjUBhPZfW/99N1uHTHu2lw/rQrPZcm6NzXi69OTAdRMzTpbl0w5HRoqWUo50Uu44V+reS21RGDR5QRv0rfHang17otIR21yIG52mUtv4n//9xSgzs1Bk7vqI6+VzOmucfv9u3X4NnjoN92vQyqyI+4EcqSS26p6koxEZx4vB9UBth8vg5mg/EqshO6h0yiYX7fCcnf71FzWQITK+MUl5ScvtBzZcQ2/cF0STpy+dz+dTZrm4cJjTmWSmiLNEpw0n87HQmxo0pFXbq4Fr6O4OQcZh31I1mmX2V8VnaL6lJmmdeM/X/E0GKBBbO2+61fGUNgM+dfuZ3Bu02n8WFA6abT+jK+idtGmPo+lTHoyWX3+hG6lwx17zpE68/O6ArQEb7nPcdbfYUjv3PfscY+KbBN0PquVlx81nbd+p0SDiXtqgMUzZrjdrXGp9E1LiFXbXBgy1/bQAbGC33HoTMnlGbWWn5W5dMVS5PzDVbag1Bc5mYx24d5uIvLCh7NveENxEd9M/8XLnOWXfNm7c3j3nie6+bcigOxpgz0dl3TsJkY31g4BiskBidb8itnGtSVeEiLJecZEE8Xq9fLl8M3R+XsZrBV76JzzP8dtzpyD+5csDOBILBsUly/7+vsUiBBdDIml78f8HCbyIF1O8fszwHHmZV/XVxVgwFIvFOtRgTExMTExM3yHSoBfO3lb1chkjFzyaA0oB1GH5U4yJzy7ZfPbWG76Ml7oSr3rVq25By7lrbN8Pv3+vdx0irTFisZC2G8cDsY7qnGJXkWw2Ho9c1c3mhT7EUR8qTd+qt5xbC+dy4TVF4XBZ5zuQr8lk8in/lEyWSsmnp5H5vdY/vyisHxysrq7eB9Up74p84GB1P9gxha14/CHehbuOv2gOxo4LPXAoctL8ekRveTds8Pv9tjDVgN8/pPMdyNenp6jL5fIAsBL8VXonDrc8V3izij164F5ZXhIr12d44ODsLtQxzDhx8csHXNM81hhNjOM2l+MvraZFycSPu7j6+yPVfFhz9UkTbe+9f+eJut6939sbHpFcrui7lsw4smitrNpNGmhWazBhX41ZQ530vy5xL57gxuNs7forcnwLzLLHOr9Z7xC4KyxPmE2cG3b1g/vwiMflejc3zHN773AhfeR9y1N5znpP58vulOUSnreu2tfbfflJg/jFD7fZAhitGvJj8Ui80Bc/1slVWmbecvhlZuCzOYj+7+dLrqjnXWtmHG/dx8lae2JDjfvWM/tZxzGLZK9u+7ri6joY2Owq0tUHPmv9j4CZTWXGcWW9HMBVfYY3ihjOuzzRvD6zxEEChmdCULInMOs8n0WysUhfV+FKIRCKRwTKTCdTaZl5J5pcVF2nRmZPezpvB5hdWyg05cJg63rgusOYccFI9stVoasrIvtKPC5cfYl/B7Pz3Ze+g4bZdtIV1YtnlNm69T5A1+YoNOt6ou2X0zUqFMkuVsBot8f0wqZQPF5ZhMSZvXqZGVS2E3xu7aXyXs0BHL/3G5QbJUGnrpWZxd7gmsCBgL/GDmRGSDy7GDyBcoMaTawUrmIh8NntS8xsYaE8P1/eNbye2fDwE6TN33RsRpmdBWPiOq6jrCK0jmSWzS7GjrMArSJyIheJV2Kh18QzqNBQBv/rmI1Aefa15PLk5/WQyT4LEjFEoa2LMb4DmYkVYMaFsEgDo8UqXVciQWYv+sy/dn5zczMUfh0z5aI6z7s9/YZT9hnhQyLeBcF+RkIdySweWYR2CerYghBzR7Lgttcxg3jm9U6Uw6/z2dPv2AS4kl/f6/78is8gzArYEJjWSQcyix0jMy72AZqByCIkzRimBQB4pbPXq5Y3CX+Te108G97DoenSKzQ4DTMuVKGL6tedx4wPXt0CMz54XMCIFrnFaxYos5NXMePoZhZ9aJRZkRveG5GikAJ0oSljk8MMvnSATtvvPGaLJ8gMUgFw6ooXTuivOFL4DmbkVczeiYTsodFK7tY9OjK7D6wr+9ljSwHs11c7jlnw5PbDIvUbGK0vSy/1+z6fcaS8VtajpjLj9n6XAFpSv9Z4Y1eZcUELQjO1/xYR9YIWvYDMuJiAM0AfRNln+PBlZvIT4r3xv4IZRD1+78kFo3NEZ3S6gdmZOuVI5D3wncaM+xLpo8y4GNS1t/LdZYKv8JnfH8ZdB/SWaGsGXocZkeMZgSE57M67dEMaT4DZqlVUvrUYwhsidBgzMVTJ9sRFXOOPVbJdESJi8BVvMYm2nIX3eknOBvXZDe7D4PnzsG1NJ6Jtv59/8kSxyMDJIMidUVfpa4sqjY9Zl1btidnF6uQ2bn7sLGbi8Qk2APEr6DUJOcFOgCPHV5FCH/ZSV82v+/OeD+UGcC/VQG4XBI/1Jh3J1xFomKJQmY18xdH5O71xxO/zTU+Obbw5sNvtiet9dScvwTt8dRSz4IdsNh6JZ7MfgriCcYLbvMgJPRaHo1dNp9Amcmu4hpLLhcO4gALKtZ5AI9yIlHxCJaV32whtbyRZkkq/NUueeG8SumSSOKgt31hXE/udxIyLBZX7wOITItYdC7aadPQ+k24GeK9KHo8EHrTcHRULwbfFD811CSF3J60FtO/K7pbQ6CCvX2Z+5V2DmZiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJj+ELEtzEx/qoROuq6g08QLghv/4H8C56afBPyLF3g3fBIYvUYRoFMTJ8wLPCcI88pRJCoIL7/K/zchE0DD8zzFxQM49BlPzYYPmc+ai697iJdJ0oc830kXmHWSCKcWFQ33s2aVxr+rfwHAJ5m3rkgicAAAAABJRU5ErkJggg==" />
+                <br>
+                <hr>
+                <p style="color:black;; font-weight: bolder;font-size: 13px;text-align: center;">
+                    Mongo, Express, React, Node.js
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <h3 style="text-align: center;color:black;">Services</h3>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYuk3id5Qr87bimwgaXxegunBmWzcnV8GXRg&usqp=CAU" />
+                <br>
+                <hr>
+                <p style="color:black;; font-weight: bolder;font-size: 13px;text-align: center;">
+                    Dynamic & Responsive web design. UI/UX.
+                </p>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer id="footer" class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Auer<span>bach</span></h3>
+
+            <p class="footer-links">
+                <a href="homepage.html">Home</a>
+                ·
+                <a href="about.html">About</a>
+                ·
+                <a href="#">Projects</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Zachary Auerbach &copy; 2021</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Los Angeles</span> California, United States of America </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1-626-898-1235</p>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">zachauerbachdev@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the developer</span>
+                MERN Full Stack Software Developer with a certificate from UCLA Extension bootcamp.
+                I am sufficient in HTML5/CSS3/Javascript
+                /React.js/Node.js/MySQL
+                /MongoDB/Firebase/THREE.js/WebGL
+            </p>
+
+            <div class="footer-icons">
+                <a href="https://www.linkedin.com/in/zachauerbachdev/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ZachBach"><i class="fab fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="homepage.js"></script>
+
+</html>
