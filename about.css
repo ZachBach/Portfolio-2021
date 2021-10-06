@@ -681,7 +681,7 @@ display: block;
   .book {
     width: 400px;
     height: 600px;
-    background: url(/dist/assets/img/pexels-matheus-bertelli-1830252.jpg) no-repeat center center;
+    background: url(assets/img/pexels-matheus-bertelli-1830252.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 0;
