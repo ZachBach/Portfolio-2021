@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <title>Zachary Auerbach</title>
 
@@ -55,10 +54,14 @@
         </div>
     </div>
 
-    <audio id="audio" autoPlay>
+    <audio class="audio" autoplay>
         <source src="./assets/LegendsofInfinity.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+
+    <iframe class="audio" style="display: none;" width="300" height="200" src="./assets/LegendsofInfinity.mp3"
+        allow="autoplay 'src' ./assets/LegendsofInfinity.mp3">
+    </iframe>
 
     <canvas class=" webgl"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
