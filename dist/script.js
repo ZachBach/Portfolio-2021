@@ -150,17 +150,14 @@ const audio = document.querySelectorAll(".audio")
 
 
 const musicPlayer = () => {
-    let music = confirm("Would you like to hear music?");
-    
-    if (music) {
-        audio.play();
-        console.log("music")
-    } else {
-        console.log("Only Music lovers allowed")
-        audio.muted = true;
-        audio.pause();
-    }
+    audio.muted = true;
+    audio.muted = false;
+    console.log(audio)
+   if (audio.muted === true) {
+       window.location.reload();
+   }
 }
+
 
 musicPlayer();
 
