@@ -471,6 +471,11 @@ svg {
   }
 }
 
+.Button {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
 
 /* Media Querys */
 @media (max-width:480px){
